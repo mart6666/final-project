@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    background-image: url("BG 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {
@@ -43,11 +48,6 @@ nav {
 
 .hero {
     height: 100vh;
-    background-image: url("BG.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,26 +68,35 @@ nav {
     }
 }
 
-.card{
-    width: 300px;
-    height: 400px;
-    background-color: white;
-
-    h1{
-        text-align: center;
-        color: black;
-    }
+.gd-projects{
+    border: #111111 1px solid;
+    display: inline-block;
+    text-align: center;
+    padding:30px;
+    color: white;
 
     img{
-        width: 100%;
+       width: 30%;
+    }
+
+    .project-1{
+        display: flex;
+        img{
+            width: 30%;
+        }
     }
 }
 
+
+
 footer {
-    background: #111;
+    background:black;
     color: white;
     padding: 30px;
     text-align: center;
     font-size: 16px;
-}
 
+    p{
+        background: black;
+    }
+}
