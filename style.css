@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    background-image: url("BG 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {
@@ -43,11 +48,6 @@ nav {
 
 .hero {
     height: 100vh;
-    background-image: url("BG.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,26 +68,116 @@ nav {
     }
 }
 
-.card{
-    width: 300px;
-    height: 400px;
-    background-color: white;
+.gd-projects{
+    display: inline-block;
+    text-align: center;
+    padding:30px;
+    color: white;
 
-    h1{
-        text-align: center;
-        color: black;
+    .title-content{
+        width: 30%;
+        background-color: black;
+
     }
 
-    img{
-        width: 100%;
+    .project-1{
+        border: #111111 1px solid;
+        display: flex;
+        padding: 25px;
+
+        .title-content {
+            display: table-column;
+            border: black solid;
+            padding: 200px 10px 20px 50px;
+        }
+
+        justify-content: center;
+    }
+
+    .project-2{
+        border: #111111 1px solid;
+        display: flex;
+        padding: 25px;
+
+        .title-content {
+            display: table-column;
+            border: black solid;
+            padding: 200px 10px 20px 50px;
+        }
+
+        justify-content: center;
+    }
+
+    .project-3 {
+        border: #111111 1px solid;
+        display: flex;
+        padding: 25px;
+
+        .title-content {
+            display: table-column;
+            border: black solid;
+            padding: 200px 10px 20px 50px;
+        }
+
+        justify-content: center;
+    }
+
+    .project-4{
+        border: #111111 1px solid;
+        display: flex;
+        padding: 25px;
+
+        .title-content {
+            display: table-column;
+            border: black solid;
+            padding: 200px 10px 20px 50px;
+        }
+
+        justify-content: center;
+    }
+
+    .project-5 {
+        border: #111111 1px solid;
+        display: flex;
+        padding: 25px;
+
+        .title-content {
+            display: table-column;
+            border: black solid;
+            padding: 200px 10px 20px 50px;
+        }
+
+        justify-content: center;
     }
 }
 
+button {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    margin-left: 650px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border: 2px solid white;
+
+
+    button:hover {
+        background-color: black;
+    }
+
+}
+
 footer {
-    background: #111;
+    background:black;
     color: white;
     padding: 30px;
     text-align: center;
     font-size: 16px;
-}
 
+    p{
+        background: black;
+    }
+}
